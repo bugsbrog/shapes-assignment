@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.bg-image {
+    background-image: url(Water.jpeg);
+    filter: blur(8px);
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    margin-left: 3rem;
+}
+
+.card-body.position-absolute {
+    padding-top: 10rem;
+}
+
+.weird-image {
+    height: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg");
+    background: linear-gradient(-45deg, transparent 20px, #58a 0)
+}
+
+i {
+    font-size: 1.5rem;
+}
+
+.card-img {
+    width: 20% !important;
+}
