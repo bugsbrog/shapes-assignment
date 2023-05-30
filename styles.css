@@ -16,17 +16,15 @@
 }
 
 .card {
-    margin-left: 3rem;
+    margin-left: 1rem;
 }
 
 .card-body.position-absolute {
     padding-top: 10rem;
 }
 
-.weird-image {
-    height: 100%;
-    background-image: url("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg");
-    background: linear-gradient(-45deg, transparent 20px, #58a 0)
+.cut-image {
+    clip-path: polygon(0% 0%, 0% 0%, 100% 0%, 100% 60%, 0% 100%, 0% 100%);
 }
 
 i {
