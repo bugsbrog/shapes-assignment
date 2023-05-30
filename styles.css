@@ -6,10 +6,8 @@
     background-image: url(Water.jpeg);
     filter: blur(8px);
 
-    /* Full height */
     height: 100%;
 
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,9 +30,10 @@
     border-radius: 100%;
 }
 
-.floating-img {
-    
-}
+/* .floating-img img {
+    width: 50%;
+    border-radius: 2%;
+} */
 
 .card-body.position-absolute {
     padding-top: 10rem;
@@ -46,6 +45,7 @@
 
 .cut-image {
     clip-path: polygon(0% 0%, 0% 0%, 100% 0%, 100% 60%, 0% 100%, 0% 100%);
+    filter: blur(2px);
 }
 
 .img-div {
